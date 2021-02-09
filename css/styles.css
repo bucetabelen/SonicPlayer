@@ -78,8 +78,8 @@ ul{
 
     margin-right: 20%;
     position: absolute;
-    margin-top: 10%;
-    margin-left: 0.5%;
+    margin-top: 35%;
+    margin-left: 1.5%;
 }
 
 /*SCROLL*/
@@ -160,12 +160,14 @@ ul{
 /*MEDIA IPHONE 11. NO COMPLETA*/
 @media only screen 
     and (min-device-width : 414px)
-    and (max-device-height : 896px) 
+    and (max-device-height : 736px) 
     and (-webkit-device-pixel-ratio : 2) { 
-    .title{
-        letter-spacing: 16px;
-    }
-    .song-img{
-        margin-left: 25px;
+   
+    .song-item__detail{
+
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 1.5%;
     }
 }
