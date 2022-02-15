@@ -66,7 +66,7 @@ ul{
 
 .song-item{
     
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 70px;
     display: flex;
     justify-content: center;
@@ -76,10 +76,16 @@ ul{
 }
 .song-item__detail{
 
+
+    margin-right: 20%;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 0.5%;
+/*
     margin-right: 20%;
     position: absolute;
     margin-top: 35%;
-    margin-left: 1.5%;
+    margin-left: 1.5%;*/
 }
 
 /*SCROLL*/
@@ -132,7 +138,7 @@ ul{
 
 
 
-/* MEDIA IPHONE X*/ 
+/* MEDIA IPHONE X
 @media only screen 
 
     and (min-device-width: 375px)
@@ -155,12 +161,69 @@ ul{
     .song-img{
         margin-left: 26px;
     }
+}*/
+
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+     
+    .song-item__detail{
+
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 1.9%;
+    }
 }
 
-/*MEDIA IPHONE 11. NO COMPLETA*/
+/* Portrait */
 @media only screen 
-    and (min-device-width : 414px)
-    and (max-device-height : 736px) 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+
+     
+    .song-item__detail{
+
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 1.9%;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+
+     
+    .song-item__detail{
+
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 1.9%;
+    }
+}
+
+/*
+
+@media  screen 
+    and (min-device-width : 300px)
+    and (max-device-height : 800px) 
     and (-webkit-device-pixel-ratio : 2) { 
    
     .song-item__detail{
@@ -170,4 +233,4 @@ ul{
         margin-top: 35%;
         margin-left: 1.9%;
     }
-}
+}*/
