@@ -1,8 +1,8 @@
 body{
     padding: 10pt;
    
-    
-    background: linear-gradient(#1d61b9,#191414, #2d1db9);
+    background-color: aliceblue;
+   /* background: linear-gradient(#1d61b9,#191414, #2d1db9);*/
    
 }
 .header{
