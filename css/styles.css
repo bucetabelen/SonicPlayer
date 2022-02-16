@@ -241,6 +241,41 @@ ul{
     
 }
 
+/*Iphone 7 */
+
+@media only screen 
+    and (width : 375px) 
+    and (height : 667px)
+    and (orientation : portrait)  
+    and (-webkit-device-pixel-ratio : 2) { 
+
+
+    .song-item__detail{  
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 2.5%;
+    }
+    .song-item{
+    
+        margin-left: 17%;
+        margin-right: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 27%;
+      
+    }
+
+    .footer{
+
+       
+    
+        gap: 20px;
+        }
+    
+}
+
 
 
 
