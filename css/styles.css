@@ -1,8 +1,8 @@
 body{
     padding: 10pt;
    
-    background-color: aliceblue;
-   /* background: linear-gradient(#1d61b9,#191414, #2d1db9);*/
+   
+   background: linear-gradient(#1d61b9,#191414, #2d1db9);
    
 }
 .header{
@@ -137,41 +137,12 @@ ul{
 
 
 
-/* MEDIA IPHONE X
+/*----------- iPhone 11/12 ---------*/
 @media only screen 
-
-    and (min-device-width: 375px)
-    and (max-device-height: 812px)
-    and (-webkit-device-pixel-ratio: 3) { 
-
-    body{
-        padding: 34pt;
-    }
-    .header{
-        padding: 1pt;
-    }
-    .title{
-        letter-spacing: 7px;
-        font-size: 24px;
-    }
-    .song{
-        margin-right: 24px;
-    }
-    .song-img{
-        margin-left: 26px;
-    }
-}*/
-
-
-
-/* ----------- iPhone X ----------- */
-
-@media only screen 
-    and (width : 375px) 
-    and (height : 635px)
-    and (orientation : portrait)  
-    and (-webkit-device-pixel-ratio : 2) { 
-
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (orientation : portrait) 
+    and (-webkit-device-pixel-ratio: 2)  { 
 
         .song-item__detail{  
             margin-right: 20%;
@@ -181,27 +152,99 @@ ul{
         }
         .song-item{
         
-            margin-left: 17%;
+            margin-left: 14.8%;
             margin-right: 70px;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 27%;
+            margin-top: 53%;
           
         }
-
+      
         .footer{
-
-           
         
             gap: 20px;
-            }
-        
+        }
+
     }
-/*
 
 
-/* 1792x828px at 326ppi IPHONE 11*/
+
+
+/* ----------- iPhone X ----------- funciona*/
+
+@media only screen 
+    and (width : 375px) 
+    and (height : 635px)
+    and (orientation : portrait)  
+    and (-webkit-device-pixel-ratio : 2) { 
+
+
+    .song-item__detail{  
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 2.5%;
+    }
+    .song-item{
+    
+        margin-left: 17%;
+        margin-right: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 27%;
+      
+    }
+
+    .footer{
+
+       
+    
+        gap: 20px;
+        }
+    
+}
+
+/*Iphone X funciona*/
+
+@media only screen 
+    and (width : 375px) 
+    and (height : 812px)
+    and (orientation : portrait)  
+    and (-webkit-device-pixel-ratio : 2) { 
+
+
+    .song-item__detail{  
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 2.5%;
+    }
+    .song-item{
+    
+        margin-left: 17%;
+        margin-right: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 27%;
+      
+    }
+
+    .footer{
+
+       
+    
+        gap: 20px;
+        }
+    
+}
+
+
+
+
+/* 1792x828px at 326ppi IPHONE 11 (XR) funciona*/
 @media only screen 
     and (width: 414px) 
     and (height: 896px) 
@@ -216,21 +259,59 @@ ul{
         margin-left: 1.9%;
     }
     .song-item{
-    
+
         margin-left: 16%;
         margin-right: 70px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 53%;
-      
+    
     }
 
     .footer{
 
-           
+        
         
         gap: 60px;
         }
 
 }
+
+
+
+/* Iphone 13 Pro Max */
+
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+
+
+    .song-item__detail{ 
+        
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 32%;
+        margin-left: 1.9%;
+    }
+    .song-item{
+
+        margin-left: 16%;
+        margin-right: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 53%;
+    
+    }
+
+    .footer{
+
+        
+        
+        gap: 60px;
+        }
+
+    }
+
