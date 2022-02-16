@@ -68,7 +68,7 @@ ul{
 
 .song-item{
     
-    margin-left: 8%;
+    margin-left: 4.8%;
     margin-right: 70px;
     display: flex;
     justify-content: center;
@@ -124,18 +124,15 @@ ul{
     font-size: 10px;
     font-weight: bold;
     display: flex;
-    align-items:flex-end;
-
-    justify-content: space-evenly;
-    /* margin-bottom: 20px; */
-    flex-wrap: nowrap;
+   
+  
     width: 100%;
     bottom: 0px;
     position: fixed;
     padding-top:0px;
     padding-bottom:0px;
     margin-right: 10px;
-
+    gap: 100px;
     }
 
 
@@ -169,108 +166,51 @@ ul{
 
 /* ----------- iPhone X ----------- */
 
-/* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+    and (width : 375px) 
+    and (height : 635px)
+    and (orientation : portrait)  
+    and (-webkit-device-pixel-ratio : 2) { 
 
-     
-    .song-item__detail{  margin-right: 20%;
-        position: absolute;
-        margin-top: 32%;
-        margin-left: 1.9%;
+
+        .song-item__detail{  
+            margin-right: 20%;
+            position: absolute;
+            margin-top: 40%;
+            margin-left: 2.5%;
+        }
+        .song-item{
+        
+            margin-left: 17%;
+            margin-right: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 27%;
+          
+        }
+
+        .footer{
+
+           
+        
+            gap: 20px;
+            }
+        
     }
-    .song-item{
-    
-        margin-left: 16%;
-        margin-right: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 53%;
-      
-    }
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-
-     
-    .song-item__detail{  margin-right: 20%;
-        position: absolute;
-        margin-top: 32%;
-        margin-left: 1.9%;
-    }
-    .song-item{
-    
-        margin-left: 16%;
-        margin-right: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 53%;
-      
-    }
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-
-     
-    .song-item__detail{  margin-right: 20%;
-        position: absolute;
-        margin-top: 32%;
-        margin-left: 1.9%;
-    }
-    .song-item{
-    
-        margin-left: 16%;
-        margin-right: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 53%;
-      
-    }
-
-}
-
 /*
 
-@media  screen 
-    and (min-device-width : 300px)
-    and (max-device-height : 800px) 
-    and (-webkit-device-pixel-ratio : 2) { 
-   
-    .song-item__detail{
 
-        margin-right: 20%;
-        position: absolute;
-        margin-top: 35%;
-        margin-left: 1.9%;
-    }
-}*/
-
-/* 1792x828px at 326ppi */
+/* 1792x828px at 326ppi IPHONE 11*/
 @media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) { 
+    and (width: 414px) 
+    and (height: 896px) 
+    and (-webkit-device-pixel-ratio: 2)
+    and (orientation : portrait) { 
 
-        .song-item__detail{  margin-right: 20%;
+    .song-item__detail{ 
+        
+        margin-right: 20%;
         position: absolute;
         margin-top: 32%;
         margin-left: 1.9%;
@@ -285,5 +225,12 @@ ul{
         margin-top: 53%;
       
     }
+
+    .footer{
+
+           
+        
+        gap: 60px;
+        }
 
 }
