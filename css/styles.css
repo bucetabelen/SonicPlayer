@@ -142,7 +142,7 @@ ul{
     and (device-width: 390px) 
     and (device-height: 844px) 
     and (orientation : portrait) 
-    and (-webkit-device-pixel-ratio: 2)  { 
+    and (-webkit-device-pixel-ratio: 3)  { 
 
         .song-item__detail{  
             margin-right: 20%;
