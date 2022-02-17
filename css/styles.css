@@ -142,7 +142,7 @@ ul{
     and (device-width: 390px) 
     and (device-height: 844px) 
     and (orientation : portrait) 
-    and (-webkit-device-pixel-ratio: 3)  { 
+    and (-webkit-device-pixel-ratio: 2)  { 
 
         .song-item__detail{  
             margin-right: 20%;
@@ -167,15 +167,40 @@ ul{
         }
 
     }
+/* Iphone 12 */
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
 
 
+    .song-item__detail{  
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 2.5%;
+    }
+    .song-item{
+    
+        margin-left: 14.8%;
+        margin-right: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 53%;
+      
+    }
+  
+    .footer{
+    
+        gap: 20px;
+    }
+        /* CSS */
+ }
 
 
 /* ----------- iPhone X ----------- funciona*/
 
 @media only screen 
-    and (width : 375px) 
-    and (height : 635px)
+    and (device-width : 375px) 
+    and (device-height : 635px)
     and (orientation : portrait)  
     and (-webkit-device-pixel-ratio : 2) { 
 
@@ -209,8 +234,8 @@ ul{
 /*Iphone X funciona*/
 
 @media only screen 
-    and (width : 375px) 
-    and (height : 812px)
+    and (device-width : 375px) 
+    and (device-height : 812px)
     and (orientation : portrait)  
     and (-webkit-device-pixel-ratio : 2) { 
 
@@ -241,11 +266,11 @@ ul{
     
 }
 
-/*Iphone 7 */
+/* Iphone 7 */
 
 @media only screen 
-    and (width : 375px) 
-    and (height : 667px)
+    and (device-width : 375px) 
+    and (device-height : 667px)
     and (orientation : portrait)  
     and (-webkit-device-pixel-ratio : 2) { 
 
@@ -268,11 +293,10 @@ ul{
     }
 
     .footer{
-
-       
     
         gap: 20px;
-        }
+        
+    }
     
 }
 
@@ -281,8 +305,8 @@ ul{
 
 /* 1792x828px at 326ppi IPHONE 11 (XR) funciona*/
 @media only screen 
-    and (width: 414px) 
-    and (height: 896px) 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2)
     and (orientation : portrait) { 
 
